@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Formulaire d'Inscription</h1>
+    <form>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><label id="pseudo">Pseudo* :</label></td>
+            <td><input type="text" id="pseudo" name="pseudo" placeholder="Pseudo"></td>
+        </tr>
+        <tr>
+            <td><label id="mdp">Mot De Passe :</label></td>
+            <td><input type="password" id="mdp" name="mdp" placeholder="Mot De Passe"></td>
+        </tr>
+        <tr>
+            <td><label id="prenom">Prénom :</label></td>
+            <td><input type="text" id="prenom" name="prenom" placeholder="Prénom"></td>
+        </tr>
+        <tr>
+            <td><label id="email">Email:</label></td>
+            <td><input type="email" id="email" name="email"placeholder="Adresse Mail"></td>
+        </tr>
+        <tr>
+            <td><label id="fruit">Fruit préféré ?</label></td>
+            <td><label id="fruit">Fraise</label>
+            <input type="checkbox" name="fruit" value="fruit" id="fruit">
+            <label id="fruit">Framboise</label>
+            <input type="checkbox" name="fruit" value="fruit" id="fruit">
+            <label id="fruit">Myrtille</label>
+            <input type="checkbox" name="fruit" value="fruit" id="fruit"></td>
+        </tr>
+        <tr>
+            <td><label id="genre">Genre :</label></td>
+            <td><label id="homme">Homme</label>
+                <input type="radio" name="sexe" value="homme" id="homme">
+                <label id="femme">Femme</label>
+                <input type="radio" name="sexe" value="femme" id="femme">
+                </td>
+
+        </tr>
+    
+        <tr>
+            <td><label id="avatar"></label>Photo Avatar</td>
+            <td><input type="file" id="avatar"></td>
+        </tr>
+        <tr>
+            <td><label id="pays">Pays</label></td>
+            <td><select id="Pays">
+                <option>Rien</option>
+                <option>France</option>
+                <option>Maroc</option>
+                <option>Algérie</option>
+                <option>Tunisie</option></select></td>
+        </tr>
+        <tr>
+            <td><label id="ville">Ville</label></td>
+            <td><input type="text"id="ville" name="ville" placeholder="Ville"></td>
+        </tr>
+        <tr>
+            <td><label id="postal">Code Postal</label></td>
+            <td><input type="number"id="postal" name="postal" placeholder="Code Postal"></td>
+        </tr>
+        <tr>
+            <td><label id="adress">Adresse</label></td>
+            <td><textarea id="adress" rows="5" cols="40" placeholder="Adresse Postale"></textarea></td>
+        </tr>
+        <tr>
+            <td><label id="date">Date De Naissance:</label></td>
+            <td><input type="date" id="date" name="date"></td>
+        </tr>
+        <tr>    
+            <td><label id="jauge">Jauge</label></td>
+            <td><input type="range" name="jauge" id="jauge"></td>
+        </tr>
+        <tr>
+            <td><label id="tel">Téléphone</label></td>
+            <td><input type="number" id="tel" maxlength="10" placeholder="Num Tel"></td>
+        </tr>
+        <tr>
+            <td><label id="rech">Recherche</label></td>
+            <td><input type="text" name="rech" id="rech" maxlength="100" placeholder="Recherche"></td>
+        </tr>
+        <tr>
+            <td><label id="url">Url</label></td>
+            <td><input type="text" name="url" id="url" placeholder="Url"></td>
+        </tr>
+        <tr>
+            <td><label id="color">Couleur</label></td>
+            <td><input type="color" name="color" id="color"></td>
+        </tr>
+
+        </table>
+        <input type="submit" value="Valider">
+        <br>
+        <br>
+        <a href="index.html">Retour Sommaire</a>
+    </form>
+</body>
+</html>

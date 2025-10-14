@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire d'Inscription</h1>
+    <form>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><label id="nom">Nom d'Utilisateur :</label></td>
+            <td><input type="text" id="nom" name="nom" placeholder="Nom D'utilisateur"></td>
+        </tr>
+        <tr>
+            <td><label id="mdp">Mot De Passe :</label></td>
+            <td><input type="password" id="mdp" name="mdp" placeholder="Mot De Passe">
+            </td>
+        </tr>
+        <tr>
+            <td><label id="mdp2">Confirmation Mot De Passe :</label></td>
+            <td><input type="password" id="mdp2" name="mdp2" placeholder="Confirmation Mot De Passe"></td>
+        </tr>
+        <tr>
+            <td><label id="email">Email:</label></td>
+            <td><input type="email" id="email" name="email"placeholder="Adresse Mail"></td>
+        </tr>
+        <tr>
+            <td><label id="date">Date De Naissance:</label></td>
+            <td><input type="date" id="date" name="date"></td>
+        </tr>
+        <tr>
+            <td><label id="genre">Genre :</label></td>
+            <td><label id="homme">Homme</label>
+                <input type="radio" name="sexe" value="homme" id="homme">
+                </td>
+                <td><label id="femme">Femme</label>
+                    <input type="radio" name="sexe" value="femme" id="femme"></td>
+
+                <td><label id="autre">Autre</label>
+                    <input type="radio" name="sexe" value="autre" id="autre"></td>
+        </tr>
+        <tr>    
+            <td><label id="condition">J'accepte les conditions générales</label></td>
+            <td><input type="checkbox" name="condition" value="condition" id="condition"checked></td>
+        </tr>
+        </table>
+        <input type="submit" value="S'inscrire">
+    </form>
+</body>
+</html>
