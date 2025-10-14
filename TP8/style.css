@@ -19,44 +19,50 @@ header{
     height: 80px;
     width: 100%;
     clear: both;
+    font-style: oblique;
 }
 
 .block2, .block3, .block4{
     text-align: center;
-    margin-left: 5px;
-    height: 350px;
-    width: 410px;
+    margin-left: 18px;
+    height: 700px;
+    width: 32%;
     background-color: crimson;
     float: left;
     border-radius: 20px;
 }
 .block2_5, .block3_5, .block4_5{
     text-align: center;
+    margin-left: 35px;
     margin-bottom: 5px;
     height: 50px;
-    width: 410px;
+    width: 90%;
     background-color: red;
     float: left;
     border-radius: 20px;
+    font-style: oblique;
 }
 .block2_5_1, .block3_5_1, .block4_5_1{
     margin-left: 30px;
-    height: 290px;
-    width: 85%;
+    height: 620px;
+    width: 90%;
     background-color: white;
     float: left;
     border-radius: 20px;
+    font-size:  35px;
+    font-style: oblique;
 }
 
 .block5{
     clear: both;
     text-align: center;
-    margin-top : 10px;
+    margin-top : 750px;
     height: 70px;
     width: 100%;
     background-color: crimson;
     clear: both;
 }
+
 
 input[type="button"]{
     background-color: red;
@@ -70,6 +76,7 @@ input[type="button"]{
 
 input[type="button"]:hover{
     background-color: white;
+    color: crimson;
 }
 
 img{border-radius: 3px;}
