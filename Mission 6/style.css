@@ -103,6 +103,21 @@ nav li:hover .submenu{
     background-color: RGBA(241, 211, 79, 0.15);
 }
 
+.menu-php:hover {
+    border-top: 5px solid #0C8C00;
+    background-color: RGBA(12, 140, 0, 0.15);
+}
+
+.menu-db:hover {
+    border-top: 5px solid #D261E1;
+    background-color: RGBA(210, 97, 225, 0.15);
+}
+
+.menu-cert:hover {
+    border-top: 5px solid #864BF0;
+    background-color: RGBA(134, 75, 240, 0.15);
+}
+
 .menu-contact:hover {
     border-top: 5px solid #BBB;
     background-color: RGBA(220, 220, 220, 0.15);
@@ -124,6 +139,18 @@ nav > ul > li:hover {
     background-color: RGB(251, 216, 99);
 }
 
+.menu-php .submit {
+    background-color: RGB(12, 140, 0, 0.15);
+}
+
+.menu-db .submit {
+    background-color: RGB(210, 97, 225, 0.15);
+}
+
+.menu-cert .submit {
+    background-color: RGB(134, 75, 240, 0.15);
+}
+
 .submenu li:hover a {
     color: #EEE;
     font-weight: bold;
@@ -141,6 +168,17 @@ nav > ul > li:hover {
     background-color: RGB(200, 165, 75);
 }
 
+.menu-php .submenu {
+    background-color: RGB(12, 140, 0, 0.15);
+}
+
+.menu-db .submenu {
+    background-color: RGB(210, 97, 225, 0.15);
+}
+
+.menu-cert .submenu {
+    background-color: RGB(134, 75, 240, 0.15);
+}
 /*Lorsque la case est cochée (dès qu'un utilisateur appuie sur notre bouton), le menu entier s'affiche*/
 nav input[type=checkbox]:checked ~ ul{
     display: block;
@@ -189,3 +227,4 @@ nav input[type=checkbox]:checked ~ ul{
         position: static;
     }
 }
+
