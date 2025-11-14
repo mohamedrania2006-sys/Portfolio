@@ -1,0 +1,19 @@
+body{
+    background-color: gray ;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin: center;
+}
+
+input[type="text"], input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin: center;
+}
