@@ -2,6 +2,8 @@ body {
   font-family: Verdana, Calibri, sans-serif;
   margin: 0px;
   padding: 0px;
+  background-color: black;
+
 }
 
 /* On utilise ">" pour ne cibler que la liste ul qui 
@@ -40,7 +42,7 @@ nav input[type=checkbox] {
 
 nav {
     width: 100%;
-    background-color: #424558;
+    background-color: black;
 }
 
 /*On affiche seulement les éléments li correspondant à 
@@ -78,34 +80,44 @@ nav li:hover .submenu{
 }
 
 .submenu li{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 }
 
 .submenu li a{
     padding: 15px 30px;
     font-size: 13px;
-    color: #222538;
+    color: #fff;
     width: 270px;
 }
 
 .menu-html:hover{
-    border-top: 5px solid #e44d26;
-    background-color: RGBA(228, 77, 38, 0.15);
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
 }
 
-.menu-css:hover {
-    border-top: 5px solid #0070bb;
-    background-color: RGBA(000, 112, 192, 0.15);
+.menu-mission:hover {
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
 }
 
 .menu-js:hover {
-    border-top: 5px solid #f1dc4f;
-    background-color: RGBA(241, 211, 79, 0.15);
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
+}
+
+.menu-certif:hover {
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
+}
+
+.menu-db:hover {
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
 }
 
 .menu-contact:hover {
-    border-top: 5px solid #BBB;
-    background-color: RGBA(220, 220, 220, 0.15);
+    border-top: 5px solid grey;
+    background-color: RGBA(118, 118, 118, 0.15);
 }
 
 nav > ul > li:hover {
@@ -113,15 +125,19 @@ nav > ul > li:hover {
 }
 
 .menu-html .submenu {
-    background-color: RGB(230, 100, 40);
+    background-color: RGB(27, 27, 27);
 }
 
-.menu-css .submenu {
-    background-color: RGB(000, 160, 240);
+.menu-mission .submenu {
+    background-color: RGB(27, 27, 27);
 }
 
 .menu-js .submenu {
-    background-color: RGB(251, 216, 99);
+    background-color: RGB(27, 27, 27);
+}
+
+.menu-db .submenu {
+    background-color: RGB(27, 27, 27);
 }
 
 .submenu li:hover a {
@@ -130,15 +146,19 @@ nav > ul > li:hover {
 }
 
 .menu-html .submenu li:hover {
-    background-color: RGB(210, 77, 60);
+    background-color: RGB(0,0 ,0);
 }
 
-.menu-css .submenu li:hover {
-    background-color: RGB(000, 115, 200);
+.menu-mission .submenu li:hover {
+    background-color: RGB(0, 0, 0);
 }
 
 .menu-js .submenu li:hover {
-    background-color: RGB(200, 165, 75);
+    background-color: RGB(0, 0, 0);
+}
+
+.menu-db .submenu li:hover {
+    background-color: RGB(0, 0, 0);
 }
 
 /*Lorsque la case est cochée (dès qu'un utilisateur appuie sur notre bouton), le menu entier s'affiche*/
