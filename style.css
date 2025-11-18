@@ -136,6 +136,10 @@ nav > ul > li:hover {
     background-color: RGB(27, 27, 27);
 }
 
+.menu-certif .submenu {
+    background-color: RGB(27, 27, 27);
+}
+
 .menu-db .submenu {
     background-color: RGB(27, 27, 27);
 }
@@ -160,7 +164,9 @@ nav > ul > li:hover {
 .menu-db .submenu li:hover {
     background-color: RGB(0, 0, 0);
 }
-
+.menu-certif .submenu li:hover {
+    background-color: RGB(0, 0, 0);
+}
 /*Lorsque la case est cochée (dès qu'un utilisateur appuie sur notre bouton), le menu entier s'affiche*/
 nav input[type=checkbox]:checked ~ ul{
     display: block;
@@ -209,3 +215,4 @@ nav input[type=checkbox]:checked ~ ul{
         position: static;
     }
 }
+
