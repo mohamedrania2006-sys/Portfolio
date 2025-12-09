@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 10: Ma première BDD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="h">
+        <h1>MISSION 10</h1>
+    </div>
+
+    <div class="ligne"></div>
+
+    <div class="contenu">
+        <h2> Contexte de la Mission</h2>
+        <p>L'entreprise UGC a besoin d'une base de données simple pour son site web. Je crée l'ébauche pour le service marketing.</p>
+    </div>
+
+    <div class="contenu">
+        <h2> Schéma de la Base de Données</h2>
+        <p>Voici l'organisation des 6 tables (Acteur, Film, Réalisateur, etc.) et comment elles sont liées.</p>
+        <img src="BDDM10.png" alt="Schéma de la base de données cinéma simple">
+    </div>
+
+    <div class="contenu">
+        <h2> Les Requêtes SQL</h2>
+        <p>J'ai utilisé le langage SQL pour créer les tables et y mettre les données.</p>
+        
+        <h3> Création des Tables</h3>
+        <div class="code">
+            <p> On crée la base</p>
+            <p>CREATE DATABASE cinema;</p>
+            <p> On crée la table Pays</p>
+            <p>CREATE TABLE pays (IDENT_PAYS INT PRIMARY KEY, LIBELLE VARCHAR(50));</p>
+            <p> On ajoute la liaison (Clé Étrangère) entre Film et Pays</p>
+            <p>ALTER TABLE film ADD CONSTRAINT fk_film_pays FOREIGN KEY (PAYS) REFERENCES pays(IDENT_PAYS);</p>
+        </div>
+
+        <h3>Insertion des Données</h3>
+        <div class="code">
+            <p> On met les pays</p>
+            <p>INSERT INTO pays (IDENT_PAYS, LIBELLE) VALUES (1, 'FRANCE');</p>
+            <p> On met un film</p>
+            <p>INSERT INTO film (IDENT_FILM, TITRE, ...) VALUES (1, 'SUBWAY', ...);</p>
+        </div>
+
+        <h3>Requêtes SQL</h3>
+        <div class="contenu">
+            <p> Voici une version PDF des requetes SQL</p>
+            <a href="cinema.pdf">Cinema. PDF</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fonction.js"></script>
+</head>
+<body>
+
+    <h1>Mon Quizz Personnalisé</h1>
+    <p>Testez vos connaissances sur le sujet des Pokémon</p>
+
+    <form name="qcm">
+        <div id="questions">
+            
+            <div class="question" id="q-1">
+                <h3>Question 1 : Quels Pokémons obtient le type dragon en méga-évoluant depuis pokémon Legends: ZA ?</h3>
+                <label><input type="checkbox" name="q1" value="a"> Dracaufeu </label><br>
+                <label><input type="checkbox" name="q1" value="b"> Aligatueur </label><br>
+                <label><input type="checkbox" name="q1" value="c"> Couafarel </label><br>
+            </div>
+
+            <div class="question" id="q-2">
+                <h3>Question 2 : Quel Pokémon fût le premier à avoir été banni en AG (Anything Goes) ?</h3>
+                <label><input type="checkbox" name="q2" value="a"> Méga-Rayquaza </label><br>
+                <label><input type="checkbox" name="q2" value="b"> Miradion </label><br>
+                <label><input type="checkbox" name="q2" value="c"> Spectreval </label><br>
+            </div>
+
+            <div class="question" id="q-3">
+                <h3>Question 3 : Dans Quelle Région se déroule les jeux Pokémon Ruby, Saphire et Emeraude ?</h3>
+                <label><input type="checkbox" name="q3" value="a"> Hoenn </label><br>
+                <label><input type="checkbox" name="q3" value="b"> Ile-de-France </label><br>
+                <label><input type="checkbox" name="q3" value="c"> Paldéa </label><br>
+            </div>
+            
+            <div class="question" id="q-4">
+                <h3>Question 4 : Quel est l'attaque signature de Marshadow ?</h3>
+                <label><input type="checkbox" name="q4" value="a"> Clepto-Mâne </label><br>
+                <label><input type="checkbox" name="q4" value="b"> Hommage Posthume </label><br>
+                <label><input type="checkbox" name="q4" value="c"> Cent Rancunes </label><br>
+            </div>
+            
+            <div class="question" id="q-5">
+                <h3>Question 5 : Quels sont les 2 Talents D'Etouraptor ?</h3>
+                <label><input type="checkbox" name="q5" value="a"> Téméraire </label><br>
+                <label><input type="checkbox" name="q5" value="b"> Intimidation </label><br>
+                <label><input type="checkbox" name="q5" value="c"> Souffle Delta </label><br>
+            </div>
+            
+            <div class="question" id="q-6">
+                <h3>Question 6 : Quel Talent Pokémon réduit d'1 cran une statistique et en monte une autre de 2 cran de manière aléatoire ?</h3>
+                <label><input type="checkbox" name="q6" value="a"> Lame indomptable </label><br>
+                <label><input type="checkbox" name="q6" value="b"> Lunatique </label><br>
+                <label><input type="checkbox" name="q6" value="c"> Télécharge </label><br>
+            </div>
+            
+            <div class="question" id="q-7">
+                <h3>Question 7 : Quel est le Pokémon avec la vitesse de base la plus rapide du jeu ?</h3>
+                <label><input type="checkbox" name="q7" value="a"> Regieleki</label><br>
+                <label><input type="checkbox" name="q7" value="b"> Electrode</label><br>
+                <label><input type="checkbox" name="q7" value="c"> Deoxys Vitesse</label><br>
+            </div>
+            
+            <div class="question" id="q-8">
+                <h3>Question 8 : Quelle région Pokémon est inspiré de La France</h3>
+                <label><input type="checkbox" name="q8" value="a"> Sumeru</label><br>
+                <label><input type="checkbox" name="q8" value="b"> Unova</label><br>
+                <label><input type="checkbox" name="q8" value="c"> Kalos</label><br>
+            </div>
+            
+            <div class="question" id="q-9">
+                <h3>Question 9 :Quels sont les Pokémon représentant le Yin et le Yang ?</h3>
+                <label><input type="checkbox" name="q9" value="a"> Reshiram</label><br>
+                <label><input type="checkbox" name="q9" value="b"> Zekrom</label><br>
+                <label><input type="checkbox" name="q9" value="c"> Xerneas</label><br>
+                <label><input type="checkbox" name="q9" value="d"> Yveltal</label><br>
+            </div>
+            
+            <div class="question" id="q-10">
+                <h3>Question 10 : Quel pokémon, en Méga-évoluant, perd un type ?</h3>
+                <label><input type="checkbox" name="q10" value="a"> Goupelin</label><br>
+                <label><input type="checkbox" name="q10" value="b"> Galéking</label><br>
+                <label><input type="checkbox" name="q10" value="c"> Oniglali</label><br>
+            </div>
+
+
+        </div>
+        <div id="resultat"></div>
+
+        <div>
+            <input type="button" value="Correction" onclick="testqcm()"> <input type="button" value="Corrigé" onclick="afficherCorrigé()"> <input type="reset" value="Effacer" onclick="effacerCoches()"> </div>
+    </form>
+
+</body>
+</html>
